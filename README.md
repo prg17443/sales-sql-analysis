@@ -43,7 +43,6 @@ Built using advanced SQL techniques including window functions, ranking, correla
 
 ## 📊 Sample Executive KPI Query
 
-```sql
 SELECT 
     ROUND(SUM(Sales), 2) AS Total_sales,
     ROUND(SUM(Profit), 2) AS Total_profit,
@@ -51,11 +50,32 @@ SELECT
     ROUND(SUM(Profit) / NULLIF(SUM(Sales), 0) * 100, 2) AS Profit_Margin
 FROM Orders;
 
+---
 
-🎯 Project Impact
+## 📂 Dataset
 
-Demonstrates strong SQL fundamentals, advanced analytical capabilities, and the ability to translate raw data into actionable business insights.
+Dataset details available at:
 
-📌 Summary Version
+`dataset/dataset_description.md`
 
-Built an advanced SQL Sales Analysis project answering 50+ business questions using aggregations, window functions, ranking, correlation analysis, and performance optimization techniques to derive actionable insights.
+---
+
+## 🚀 Project Overview
+
+This project demonstrates strong SQL fundamentals, advanced analytical capabilities, and the ability to translate raw transactional data into actionable business insights.
+
+---
+
+## 📌 Summary
+
+Built an advanced **SQL Sales Analysis** answering **50+ business questions** using:
+
+- Aggregations  
+- Window Functions  
+- Ranking Functions  
+- Correlation Analysis  
+- Performance Optimization Techniques  
+
+The project focuses on transforming raw data into meaningful, data-driven insights for strategic decision-making.
+
+
