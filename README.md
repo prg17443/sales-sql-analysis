@@ -29,6 +29,7 @@ iv) High revenue does not always mean high profitability
 v) Some categories underperform despite strong sales
 
 📊 Sample Executive KPI Query
+
 SELECT 
     ROUND(SUM(Sales), 2) AS Total_sales,
     ROUND(SUM(Profit), 2) AS Total_profit,
